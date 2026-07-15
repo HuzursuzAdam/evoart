@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from evoart_interfaces/msg/VehicleControl.msg
+// generated code does not contain a copyright notice
+
+
+module evoart_interfaces {
+  module msg {
+    struct VehicleControl {
+      @verbatim (language="comment", text=
+        "İleri/geri hedef hız (m/s)")
+      float target_velocity;
+
+      @verbatim (language="comment", text=
+        "Direksiyon açısı (Radyan)")
+      float steering_angle;
+
+      @verbatim (language="comment", text=
+        "Acil durum freni (True/False)")
+      boolean emergency_stop;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from evoart_interfaces/srv/StartPark.srv
+// generated code does not contain a copyright notice
+
+
+module evoart_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "İstek (Request)")
+    struct StartPark_Request {
+      int8 parking_slot_number;
+    };
+    @verbatim (language="comment", text=
+      "Cevap (Response)")
+    struct StartPark_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

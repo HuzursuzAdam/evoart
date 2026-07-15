@@ -1,0 +1,16 @@
+digraph G {
+"odom" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 29.612\nBuffer length: 4.998\nMost recent transform: 2716.328\nOldest transform: 2711.33\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "zed_camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "arka_sag_teker_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+"base_link" -> "arka_sol_teker_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+"base_link" -> "on_sag_direksiyon_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+"on_sag_direksiyon_link" -> "on_sag_teker_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+"base_link" -> "on_sol_direksiyon_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+"on_sol_direksiyon_link" -> "on_sol_teker_link"[label=" Broadcaster: default_authority\nAverage rate: 36.978\nBuffer length: 5.003\nMost recent transform: 2716.358\nOldest transform: 2711.355\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1784034149.9366245"[ shape=plaintext ] ;
+}->"odom";
+}

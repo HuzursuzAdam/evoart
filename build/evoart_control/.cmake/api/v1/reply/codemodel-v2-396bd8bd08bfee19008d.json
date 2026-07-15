@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fa9cfe3ecffb7651e4f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "evoart_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_vel_to_ackermann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_vel_to_ackermann-2f366857ac81728548ab.json",
+					"name" : "cmd_vel_to_ackermann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "evoart_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-evoart_control_uninstall-d7ac62dbc0428a683ff1.json",
+					"name" : "evoart_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_odom_node-8018af7d389d8a7ea0b9.json",
+					"name" : "stm32_odom_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-73507f7792eef73bc06d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mustafa/evoart_ws/build/evoart_control",
+		"source" : "/home/mustafa/evoart_ws/src/evoart_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

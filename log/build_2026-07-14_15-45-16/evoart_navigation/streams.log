@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_navigation -- -j32 -l32
+[0.042s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_navigation -- -j32 -l32
+[0.043s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_navigation
+[0.050s] -- Install configuration: ""
+[0.050s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config
+[0.050s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config/ekf.yaml
+[0.050s] -- Installing: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config/nav2_params.yaml
+[0.051s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/launch
+[0.051s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/launch/navigation.launch.py
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps/robotaksi_pist.yaml
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps/robotaksi_pis.pgm
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/package_run_dependencies/evoart_navigation
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/parent_prefix_path/evoart_navigation
+[0.052s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/ament_prefix_path.sh
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/ament_prefix_path.dsv
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/path.sh
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/path.dsv
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.bash
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.sh
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.zsh
+[0.053s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.dsv
+[0.054s] -- Installing: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/package.dsv
+[0.054s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/packages/evoart_navigation
+[0.054s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/cmake/evoart_navigationConfig.cmake
+[0.054s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/cmake/evoart_navigationConfig-version.cmake
+[0.054s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/package.xml
+[0.056s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_navigation

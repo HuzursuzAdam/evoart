@@ -1,0 +1,10 @@
+cmd_vel_to_ackermann_node:
+  ros__parameters:
+    wheelbase: 1.425
+    max_steering_angle: 0.76
+    
+  stm32_odom_node:
+  ros__parameters:
+    serial_port: "/dev/ttyUSB0"
+    baud_rate: 115200
+    wheel_radius: 0.15 # Metre cinsinden tekerlek yarıçapı

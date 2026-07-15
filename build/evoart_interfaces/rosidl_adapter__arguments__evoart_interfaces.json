@@ -1,0 +1,9 @@
+{
+  "package_name": "evoart_interfaces",
+  "non_idl_tuples": [
+    "/home/mustafa/evoart_ws/src/evoart_interfaces:msg/Obstacle.msg",
+    "/home/mustafa/evoart_ws/src/evoart_interfaces:msg/TrafficLight.msg",
+    "/home/mustafa/evoart_ws/src/evoart_interfaces:msg/VehicleControl.msg",
+    "/home/mustafa/evoart_ws/src/evoart_interfaces:srv/StartPark.srv"
+  ]
+}

@@ -1,0 +1,27 @@
+[ 50%] Built target cmd_vel_to_ackermann
+[100%] Built target stm32_odom_node
+-- Install configuration: ""
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config/control_params.yaml
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander.py
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/package_run_dependencies/evoart_control
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/parent_prefix_path/evoart_control
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.bash
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.zsh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/packages/evoart_control
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig.cmake
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig-version.cmake
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.xml

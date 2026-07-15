@@ -1,0 +1,4 @@
+source;share/evoart_behavior/local_setup.bash
+source;share/evoart_behavior/local_setup.dsv
+source;share/evoart_behavior/local_setup.sh
+source;share/evoart_behavior/local_setup.zsh

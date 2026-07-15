@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from evoart_interfaces/msg/TrafficLight.msg
+// generated code does not contain a copyright notice
+
+
+module evoart_interfaces {
+  module msg {
+    module TrafficLight_Constants {
+      const int8 RED = 0;
+      const int8 GREEN = 1;
+      const int8 YELLOW = 2;
+    };
+    @verbatim (language="comment", text=
+      "Işık Durumları")
+    struct TrafficLight {
+      int8 color;
+
+      @verbatim (language="comment", text=
+        "Yapay zekanın emin olma oranı (0.0 - 1.0)")
+      float confidence;
+    };
+  };
+};

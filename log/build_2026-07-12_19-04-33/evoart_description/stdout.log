@@ -1,0 +1,130 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mustafa/evoart_ws/build/evoart_description
+-- Install configuration: ""
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/urdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/urdf/robotaksi.urdf.xacro
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/launch
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/launch/gazebo.launch.py
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/launch/display.launch.py
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/rviz
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/rviz/robotaksi.rviz
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/worlds
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/worlds/teknofest_city.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaDonulmezTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaDonulmezTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaDonulmezTabelasi/meshes/SagaDonulmezTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaDonulmezTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaDonulmezTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri20
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri20/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri20/meshes/AzamiHizSiniri20.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri20/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri20/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkEtmekYasaktirTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkEtmekYasaktirTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkEtmekYasaktirTabelasi/meshes/ParkEtmekYasaktirTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkEtmekYasaktirTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkEtmekYasaktirTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkYeriTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkYeriTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkYeriTabelasi/meshes/ParkYeriTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkYeriTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/ParkYeriTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurTabelasi/meshes/DurTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/KirmiziTrafikLambasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/KirmiziTrafikLambasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/KirmiziTrafikLambasi/meshes/KirmiziTrafikLambasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/KirmiziTrafikLambasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/KirmiziTrafikLambasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/meshes/RoboTaksiPist2024.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/meshes/RoboTaksiPist2024_1.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/meshes/RoboTaksiPist2024_0.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/RoboTaksiPist2024/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaDonulmezTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaDonulmezTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaDonulmezTabelasi/meshes/SolaDonulmezTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaDonulmezTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaDonulmezTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DonelKavsakTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DonelKavsakTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DonelKavsakTabelasi/meshes/DonelKavsakTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DonelKavsakTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DonelKavsakTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurakTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurakTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurakTabelasi/meshes/DurakTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurakTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/DurakTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/GirisiOlmayanYolTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/GirisiOlmayanYolTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/GirisiOlmayanYolTabelasi/meshes/GirisiOlmayanYolTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/GirisiOlmayanYolTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/GirisiOlmayanYolTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaMecburiYonTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaMecburiYonTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaMecburiYonTabelasi/meshes/SagaMecburiYonTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaMecburiYonTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SagaMecburiYonTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/YesilTrafikLambasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/YesilTrafikLambasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/YesilTrafikLambasi/meshes/YesilTrafikLambasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/YesilTrafikLambasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/YesilTrafikLambasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/Template
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/Template/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/Template/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/Template/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri30
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri30/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri30/meshes/AzamiHizSiniri30.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri30/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/AzamiHizSiniri30/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SamBotBandirma
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SamBotBandirma/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SamBotBandirma/meshes/SamBotBandirma.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SamBotBandirma/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SamBotBandirma/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaMecburiYonTabelasi
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaMecburiYonTabelasi/meshes
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaMecburiYonTabelasi/meshes/SolaMecburiYonTabelasi.dae
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaMecburiYonTabelasi/model.config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/models/SolaMecburiYonTabelasi/model.sdf
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/ament_index/resource_index/package_run_dependencies/evoart_description
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/ament_index/resource_index/parent_prefix_path/evoart_description
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/environment/ament_prefix_path.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/environment/ament_prefix_path.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/environment/path.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/environment/path.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/local_setup.bash
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/local_setup.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/local_setup.zsh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/local_setup.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/package.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/ament_index/resource_index/packages/evoart_description
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/cmake/evoart_descriptionConfig.cmake
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/cmake/evoart_descriptionConfig-version.cmake
+-- Installing: /home/mustafa/evoart_ws/install/evoart_description/share/evoart_description/package.xml

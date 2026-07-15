@@ -1,0 +1,119 @@
+[0.016s] Invoking command in '/home/mustafa/evoart_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/mustafa/evoart_ws/install/zed_components
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.239s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.334s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[0.339s] -- Looking for sgemm_
+[0.406s] -- Looking for sgemm_ - not found
+[0.408s] -- Looking for pthread.h
+[0.483s] -- Looking for pthread.h - found
+[0.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.565s] -- Found Threads: TRUE  
+[0.595s] -- Looking for sgemm_
+[0.696s] -- Looking for sgemm_ - found
+[0.697s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.730s] -- Found CUDA: /usr/local/cuda (found suitable version "12.9", minimum required is "12") 
+[0.919s] -- Found CUDAToolkit: /usr/local/cuda/include (found version "12.9.86") 
+[0.959s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.292s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.297s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.306s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.428s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.430s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.512s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.539s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.839s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.840s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.840s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.007s] --  * Type Adaptation for sl::Mat is enabled
+[2.009s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.049s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.052s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.052s] -- Configured cppcheck include dirs: /home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components/src/tools/include;/home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera_one/include
+[2.052s] -- Configured cppcheck exclude dirs and/or files: 
+[2.053s] -- Added test 'lint_cmake' to check CMake code style
+[2.057s] -- Added test 'uncrustify' to check C / C++ code style
+[2.057s] -- Configured uncrustify additional arguments: 
+[2.058s] -- Added test 'xmllint' to check XML markup files
+[2.061s] -- Configuring done
+[2.101s] -- Generating done
+[2.113s] -- Build files have been written to: /home/mustafa/evoart_ws/build/zed_components
+[2.128s] Invoked command in '/home/mustafa/evoart_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mustafa/evoart_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_INSTALL_PREFIX=/home/mustafa/evoart_ws/install/zed_components
+[2.130s] Invoking command in '/home/mustafa/evoart_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/zed_components -- -j32 -l32
+[2.194s] [  5%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[2.196s] [ 11%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[2.196s] [ 17%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[2.198s] [ 23%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[2.198s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[2.198s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[2.198s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_main.cpp.o[0m
+[2.198s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_sensors.cpp.o[0m
+[2.198s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_types.cpp.o[0m
+[2.198s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera_one/src/zed_camera_one_component_video.cpp.o[0m
+[2.199s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_types.cpp.o[0m
+[2.199s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_video_depth.cpp.o[0m
+[2.199s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_objdet.cpp.o[0m
+[2.202s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_main.cpp.o[0m
+[2.202s] [ 88%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component_bodytrk.cpp.o[0m
+[20.579s] [ 94%] [32m[1mLinking CXX shared library libzed_camera_one_component.so[0m
+[21.014s] [ 94%] Built target zed_camera_one_component
+[44.396s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[44.780s] [100%] Built target zed_camera_component
+[44.788s] Invoked command in '/home/mustafa/evoart_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/zed_components -- -j32 -l32
+[44.789s] Invoking command in '/home/mustafa/evoart_ws/build/zed_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/zed_components
+[44.795s] -- Install configuration: "Release"
+[44.795s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/lib/libzed_camera_component.so
+[44.801s] -- Set runtime path of "/home/mustafa/evoart_ws/install/zed_components/lib/libzed_camera_component.so" to ""
+[44.802s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/lib/libzed_camera_one_component.so
+[44.804s] -- Set runtime path of "/home/mustafa/evoart_ws/install/zed_components/lib/libzed_camera_one_component.so" to ""
+[44.804s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components/
+[44.804s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[44.805s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[44.805s] -- Up-to-date: /home/mustafa/evoart_ws/install/zed_components/include/zed_components/
+[44.805s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//zed_camera_one_component.hpp
+[44.805s] -- Up-to-date: /home/mustafa/evoart_ws/install/zed_components/include/zed_components/
+[44.805s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[44.805s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_type_adapter.hpp
+[44.805s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_types.hpp
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//gnss_replay.hpp
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[44.806s] -- Up-to-date: /home/mustafa/evoart_ws/install/zed_components/include/zed_components/
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/include/zed_components//sl_version.hpp
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[44.806s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/path.sh
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/environment/path.dsv
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/local_setup.bash
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/local_setup.sh
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/local_setup.zsh
+[44.807s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/local_setup.dsv
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/package.dsv
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[44.808s] -- Installing: /home/mustafa/evoart_ws/install/zed_components/share/zed_components/package.xml
+[44.810s] Invoked command in '/home/mustafa/evoart_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/zed_components

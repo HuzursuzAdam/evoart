@@ -1,0 +1,358 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (-) JobUnselected: {'identifier': 'evoart_behavior'}
+[0.000513] (-) JobUnselected: {'identifier': 'evoart_bringup'}
+[0.000529] (-) JobUnselected: {'identifier': 'evoart_description'}
+[0.000544] (-) JobUnselected: {'identifier': 'evoart_navigation'}
+[0.000557] (-) JobUnselected: {'identifier': 'evoart_perception'}
+[0.000570] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.000583] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.000595] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.000608] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.000621] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.000633] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000646] (-) JobUnselected: {'identifier': 'zed_debug'}
+[0.000659] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000673] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000689] (evoart_interfaces) JobQueued: {'identifier': 'evoart_interfaces', 'dependencies': OrderedDict()}
+[0.000704] (evoart_control) JobQueued: {'identifier': 'evoart_control', 'dependencies': OrderedDict([('evoart_interfaces', '/home/mustafa/evoart_ws/install/evoart_interfaces')])}
+[0.000721] (evoart_interfaces) JobStarted: {'identifier': 'evoart_interfaces'}
+[0.007513] (evoart_interfaces) JobProgress: {'identifier': 'evoart_interfaces', 'progress': 'cmake'}
+[0.008114] (evoart_interfaces) JobProgress: {'identifier': 'evoart_interfaces', 'progress': 'build'}
+[0.008496] (evoart_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mustafa/evoart_ws/build/evoart_interfaces', '--', '-j32', '-l32'], 'cwd': '/home/mustafa/evoart_ws/build/evoart_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mustafa'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mustafa'), ('OLDPWD', '/home/mustafa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mustafa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mustafa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mustafa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mustafa/.lmstudio/bin:/home/mustafa/.lmstudio/bin'), ('SESSION_MANAGER', 'local/mustafa-SLAYER-R9T:@/tmp/.ICE-unix/12566,unix/mustafa-SLAYER-R9T:/tmp/.ICE-unix/12566'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1801df72_bdd5_4b56_8900_c477ae1d7994'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mustafa/evoart_ws/build/evoart_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/mustafa/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066505] (evoart_interfaces) StdoutLine: {'line': b'[  1%] Built target evoart_interfaces__cpp\n'}
+[0.066924] (evoart_interfaces) StdoutLine: {'line': b'[  3%] Built target evoart_interfaces__rs\n'}
+[0.070736] (evoart_interfaces) StdoutLine: {'line': b'[ 14%] Built target evoart_interfaces__rosidl_generator_c\n'}
+[0.075340] (evoart_interfaces) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_evoart_interfaces\n'}
+[0.087550] (evoart_interfaces) StdoutLine: {'line': b'[ 25%] Built target evoart_interfaces__rosidl_typesupport_cpp\n'}
+[0.087749] (evoart_interfaces) StdoutLine: {'line': b'[ 35%] Built target evoart_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.087868] (evoart_interfaces) StdoutLine: {'line': b'[ 46%] Built target evoart_interfaces__rosidl_typesupport_c\n'}
+[0.088519] (evoart_interfaces) StdoutLine: {'line': b'[ 67%] Built target evoart_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.088596] (evoart_interfaces) StdoutLine: {'line': b'[ 67%] Built target evoart_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.090238] (evoart_interfaces) StdoutLine: {'line': b'[ 78%] Built target evoart_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.099588] (-) TimerEvent: {}
+[0.103600] (evoart_interfaces) StdoutLine: {'line': b'[ 78%] Built target evoart_interfaces\n'}
+[0.117144] (evoart_interfaces) StdoutLine: {'line': b'[ 80%] Built target evoart_interfaces__py\n'}
+[0.134459] (evoart_interfaces) StdoutLine: {'line': b'[ 89%] Built target evoart_interfaces__rosidl_generator_py\n'}
+[0.150209] (evoart_interfaces) StdoutLine: {'line': b'[ 92%] Built target evoart_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.151650] (evoart_interfaces) StdoutLine: {'line': b'[ 96%] Built target evoart_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.152060] (evoart_interfaces) StdoutLine: {'line': b'[100%] Built target evoart_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.199670] (-) TimerEvent: {}
+[0.221175] (evoart_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.221556] (evoart_interfaces) StdoutLine: {'line': b'writing evoart_interfaces.egg-info/PKG-INFO\n'}
+[0.221706] (evoart_interfaces) StdoutLine: {'line': b'writing dependency_links to evoart_interfaces.egg-info/dependency_links.txt\n'}
+[0.221852] (evoart_interfaces) StdoutLine: {'line': b'writing top-level names to evoart_interfaces.egg-info/top_level.txt\n'}
+[0.223398] (evoart_interfaces) StdoutLine: {'line': b"reading manifest file 'evoart_interfaces.egg-info/SOURCES.txt'\n"}
+[0.223786] (evoart_interfaces) StdoutLine: {'line': b"writing manifest file 'evoart_interfaces.egg-info/SOURCES.txt'\n"}
+[0.244681] (evoart_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_evoart_interfaces_egg\n'}
+[0.253392] (evoart_interfaces) CommandEnded: {'returncode': 0}
+[0.254060] (evoart_interfaces) JobProgress: {'identifier': 'evoart_interfaces', 'progress': 'install'}
+[0.259481] (evoart_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mustafa/evoart_ws/build/evoart_interfaces'], 'cwd': '/home/mustafa/evoart_ws/build/evoart_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mustafa'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mustafa'), ('OLDPWD', '/home/mustafa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mustafa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mustafa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mustafa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mustafa/.lmstudio/bin:/home/mustafa/.lmstudio/bin'), ('SESSION_MANAGER', 'local/mustafa-SLAYER-R9T:@/tmp/.ICE-unix/12566,unix/mustafa-SLAYER-R9T:/tmp/.ICE-unix/12566'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1801df72_bdd5_4b56_8900_c477ae1d7994'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mustafa/evoart_ws/build/evoart_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/mustafa/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.265645] (evoart_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.266120] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/ament_index/resource_index/rosidl_interfaces/evoart_interfaces\n'}
+[0.266224] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.266304] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.266356] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.266420] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__functions.c\n'}
+[0.266474] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__functions.h\n'}
+[0.266541] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__functions.c\n'}
+[0.266577] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__functions.h\n'}
+[0.266612] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__struct.h\n'}
+[0.266645] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__type_support.h\n'}
+[0.266698] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__type_support.h\n'}
+[0.266789] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__struct.h\n'}
+[0.266838] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__functions.c\n'}
+[0.266892] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__struct.h\n'}
+[0.266920] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__functions.h\n'}
+[0.266948] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__type_support.h\n'}
+[0.266978] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.267035] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/obstacle.h\n'}
+[0.267065] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/traffic_light.h\n'}
+[0.267094] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/vehicle_control.h\n'}
+[0.267148] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.267172] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/start_park.h\n'}
+[0.267200] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.267223] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__struct.h\n'}
+[0.267260] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__type_support.h\n'}
+[0.267284] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__functions.h\n'}
+[0.267309] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__functions.c\n'}
+[0.267332] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/library_path.sh\n'}
+[0.267356] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/library_path.dsv\n'}
+[0.267548] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_generator_c.so\n'}
+[0.267676] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.267737] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.267770] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.267847] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267878] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267908] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.267937] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.267965] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.268024] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.268053] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__rosidl_typesupport_fastrtps_c.h\n'}
+[0.268223] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.268354] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.268411] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.268437] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.268500] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__rosidl_typesupport_introspection_c.h\n'}
+[0.268533] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__rosidl_typesupport_introspection_c.h\n'}
+[0.268563] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__type_support.c\n'}
+[0.268615] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__rosidl_typesupport_introspection_c.h\n'}
+[0.268689] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__type_support.c\n'}
+[0.268723] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__type_support.c\n'}
+[0.268780] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.268811] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.268836] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.268860] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__type_support.c\n'}
+[0.268884] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__rosidl_typesupport_introspection_c.h\n'}
+[0.268977] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.269312] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_c.so\n'}
+[0.269425] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.269488] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.269538] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.269604] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__type_support.hpp\n'}
+[0.269634] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__builder.hpp\n'}
+[0.269664] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__traits.hpp\n'}
+[0.269693] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__struct.hpp\n'}
+[0.269745] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__traits.hpp\n'}
+[0.269832] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__builder.hpp\n'}
+[0.269871] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__type_support.hpp\n'}
+[0.269900] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__struct.hpp\n'}
+[0.269929] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__struct.hpp\n'}
+[0.269996] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__traits.hpp\n'}
+[0.270054] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__type_support.hpp\n'}
+[0.270085] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__builder.hpp\n'}
+[0.270116] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/vehicle_control.hpp\n'}
+[0.270147] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/traffic_light.hpp\n'}
+[0.270176] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.270210] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/obstacle.hpp\n'}
+[0.270239] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.270268] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/start_park.hpp\n'}
+[0.270298] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.270327] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__struct.hpp\n'}
+[0.270399] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__traits.hpp\n'}
+[0.270423] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__type_support.hpp\n'}
+[0.270447] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__builder.hpp\n'}
+[0.270471] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.270495] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.270518] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.270542] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.270567] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.270597] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.270626] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/dds_fastrtps\n'}
+[0.270655] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.270685] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.270713] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.270744] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.270774] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/dds_fastrtps\n'}
+[0.270907] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.270937] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces\n'}
+[0.270998] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg\n'}
+[0.271024] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail\n'}
+[0.271048] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__type_support.cpp\n'}
+[0.271072] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__type_support.cpp\n'}
+[0.271098] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__type_support.cpp\n'}
+[0.271122] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/traffic_light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271147] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/vehicle_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271171] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271199] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv\n'}
+[0.271223] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail\n'}
+[0.271248] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.271272] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/include/evoart_interfaces/evoart_interfaces/srv/detail/start_park__type_support.cpp\n'}
+[0.271325] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.271690] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.271829] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/pythonpath.sh\n'}
+[0.271882] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/pythonpath.dsv\n'}
+[0.272084] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.272165] (evoart_interfaces) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.272297] (evoart_interfaces) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.272402] (evoart_interfaces) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.272505] (evoart_interfaces) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.272624] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces\n'}
+[0.272716] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/_evoart_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.272776] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg\n'}
+[0.272840] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_traffic_light.py\n'}
+[0.272875] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_obstacle_s.c\n'}
+[0.272940] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_traffic_light_s.c\n'}
+[0.273000] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_obstacle.py\n'}
+[0.273027] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/__init__.py\n'}
+[0.273057] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_vehicle_control.py\n'}
+[0.273088] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg/_vehicle_control_s.c\n'}
+[0.273118] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/srv\n'}
+[0.273172] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/srv/_start_park.py\n'}
+[0.273254] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/srv/__init__.py\n'}
+[0.273282] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/srv/_start_park_s.c\n'}
+[0.273307] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/_evoart_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.273331] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/_evoart_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.273356] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/__init__.py\n'}
+[0.273380] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.273406] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.273434] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/libevoart_interfaces__rosidl_generator_py.so\n'}
+[0.273458] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.292711] (evoart_interfaces) StdoutLine: {'line': b"Listing '/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces'...\n"}
+[0.292787] (evoart_interfaces) StdoutLine: {'line': b"Listing '/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/msg'...\n"}
+[0.292840] (evoart_interfaces) StdoutLine: {'line': b"Listing '/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/srv'...\n"}
+[0.296214] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296617] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.297000] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages/evoart_interfaces/evoart_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.297364] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/lib/libevoart_interfaces__rosidl_generator_py.so\n'}
+[0.297527] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/ament_index/resource_index/rust_packages/evoart_interfaces\n'}
+[0.297579] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust\n'}
+[0.297627] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src\n'}
+[0.297694] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/lib.rs\n'}
+[0.297748] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/msg\n'}
+[0.297807] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/msg/rmw.rs\n'}
+[0.297837] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/srv\n'}
+[0.297893] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/srv/rmw.rs\n'}
+[0.297925] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/msg.rs\n'}
+[0.297984] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/src/srv.rs\n'}
+[0.298010] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/build.rs\n'}
+[0.298038] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/rust/Cargo.toml\n'}
+[0.298096] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/Obstacle.idl\n'}
+[0.298122] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/TrafficLight.idl\n'}
+[0.298144] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/VehicleControl.idl\n'}
+[0.298188] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/srv/StartPark.idl\n'}
+[0.298244] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/Obstacle.msg\n'}
+[0.298276] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/TrafficLight.msg\n'}
+[0.298334] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/msg/VehicleControl.msg\n'}
+[0.298386] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/srv/StartPark.srv\n'}
+[0.298409] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/srv/StartPark_Request.msg\n'}
+[0.298450] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/srv/StartPark_Response.msg\n'}
+[0.298473] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/ament_index/resource_index/package_run_dependencies/evoart_interfaces\n'}
+[0.298516] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/ament_index/resource_index/parent_prefix_path/evoart_interfaces\n'}
+[0.298566] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/ament_prefix_path.sh\n'}
+[0.298628] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.298654] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/path.sh\n'}
+[0.298682] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/environment/path.dsv\n'}
+[0.298746] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/local_setup.bash\n'}
+[0.298776] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/local_setup.sh\n'}
+[0.298828] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/local_setup.zsh\n'}
+[0.298852] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/local_setup.dsv\n'}
+[0.298874] (evoart_interfaces) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/package.dsv\n'}
+[0.299027] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/ament_index/resource_index/packages/evoart_interfaces\n'}
+[0.299470] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.299518] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.299664] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.299691] (-) TimerEvent: {}
+[0.299758] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.299862] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.299924] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.300043] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.300096] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.300206] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.300359] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.300409] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.300542] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.300594] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.300710] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.300764] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.300925] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.300979] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/export_evoart_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.301038] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.301070] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.301129] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.301181] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.301226] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.301255] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.301288] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.301315] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.301373] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfacesConfig.cmake\n'}
+[0.301405] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/cmake/evoart_interfacesConfig-version.cmake\n'}
+[0.301428] (evoart_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_interfaces/share/evoart_interfaces/package.xml\n'}
+[0.302957] (evoart_interfaces) CommandEnded: {'returncode': 0}
+[0.316444] (evoart_interfaces) JobEnded: {'identifier': 'evoart_interfaces', 'rc': 0}
+[0.316859] (evoart_control) JobStarted: {'identifier': 'evoart_control'}
+[0.322277] (evoart_control) JobProgress: {'identifier': 'evoart_control', 'progress': 'cmake'}
+[0.322802] (evoart_control) JobProgress: {'identifier': 'evoart_control', 'progress': 'build'}
+[0.323023] (evoart_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mustafa/evoart_ws/build/evoart_control', '--', '-j32', '-l32'], 'cwd': '/home/mustafa/evoart_ws/build/evoart_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mustafa'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mustafa'), ('OLDPWD', '/home/mustafa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mustafa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mustafa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mustafa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mustafa/.lmstudio/bin:/home/mustafa/.lmstudio/bin'), ('SESSION_MANAGER', 'local/mustafa-SLAYER-R9T:@/tmp/.ICE-unix/12566,unix/mustafa-SLAYER-R9T:/tmp/.ICE-unix/12566'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1801df72_bdd5_4b56_8900_c477ae1d7994'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mustafa/evoart_ws/build/evoart_control'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/mustafa/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.372646] (evoart_control) StdoutLine: {'line': b'[ 50%] Built target cmd_vel_to_ackermann\n'}
+[0.373644] (evoart_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/stm32_odom_node.dir/src/stm32_odom_node.cpp.o\x1b[0m\n'}
+[0.399778] (-) TimerEvent: {}
+[0.499923] (-) TimerEvent: {}
+[0.600043] (-) TimerEvent: {}
+[0.700176] (-) TimerEvent: {}
+[0.800308] (-) TimerEvent: {}
+[0.900423] (-) TimerEvent: {}
+[1.000556] (-) TimerEvent: {}
+[1.100679] (-) TimerEvent: {}
+[1.200796] (-) TimerEvent: {}
+[1.300911] (-) TimerEvent: {}
+[1.401054] (-) TimerEvent: {}
+[1.501193] (-) TimerEvent: {}
+[1.601320] (-) TimerEvent: {}
+[1.701458] (-) TimerEvent: {}
+[1.801597] (-) TimerEvent: {}
+[1.901753] (-) TimerEvent: {}
+[2.001968] (-) TimerEvent: {}
+[2.102126] (-) TimerEvent: {}
+[2.202297] (-) TimerEvent: {}
+[2.302433] (-) TimerEvent: {}
+[2.402553] (-) TimerEvent: {}
+[2.502661] (-) TimerEvent: {}
+[2.602754] (-) TimerEvent: {}
+[2.702858] (-) TimerEvent: {}
+[2.802949] (-) TimerEvent: {}
+[2.903045] (-) TimerEvent: {}
+[3.003150] (-) TimerEvent: {}
+[3.103242] (-) TimerEvent: {}
+[3.203334] (-) TimerEvent: {}
+[3.303427] (-) TimerEvent: {}
+[3.403522] (-) TimerEvent: {}
+[3.503634] (-) TimerEvent: {}
+[3.603755] (-) TimerEvent: {}
+[3.703907] (-) TimerEvent: {}
+[3.804047] (-) TimerEvent: {}
+[3.904169] (-) TimerEvent: {}
+[4.004301] (-) TimerEvent: {}
+[4.104459] (-) TimerEvent: {}
+[4.204603] (-) TimerEvent: {}
+[4.304722] (-) TimerEvent: {}
+[4.404878] (-) TimerEvent: {}
+[4.505006] (-) TimerEvent: {}
+[4.605131] (-) TimerEvent: {}
+[4.705249] (-) TimerEvent: {}
+[4.805365] (-) TimerEvent: {}
+[4.905484] (-) TimerEvent: {}
+[5.005616] (-) TimerEvent: {}
+[5.105742] (-) TimerEvent: {}
+[5.205895] (-) TimerEvent: {}
+[5.306013] (-) TimerEvent: {}
+[5.406130] (-) TimerEvent: {}
+[5.410649] (evoart_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stm32_odom_node\x1b[0m\n'}
+[5.506217] (-) TimerEvent: {}
+[5.606395] (-) TimerEvent: {}
+[5.658194] (evoart_control) StdoutLine: {'line': b'[100%] Built target stm32_odom_node\n'}
+[5.667430] (evoart_control) CommandEnded: {'returncode': 0}
+[5.671531] (evoart_control) JobProgress: {'identifier': 'evoart_control', 'progress': 'install'}
+[5.672128] (evoart_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mustafa/evoart_ws/build/evoart_control'], 'cwd': '/home/mustafa/evoart_ws/build/evoart_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mustafa'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mustafa'), ('OLDPWD', '/home/mustafa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12847'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mustafa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mustafa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mustafa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mustafa/.lmstudio/bin:/home/mustafa/.lmstudio/bin'), ('SESSION_MANAGER', 'local/mustafa-SLAYER-R9T:@/tmp/.ICE-unix/12566,unix/mustafa-SLAYER-R9T:/tmp/.ICE-unix/12566'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1801df72_bdd5_4b56_8900_c477ae1d7994'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mustafa/evoart_ws/build/evoart_control'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/mustafa/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.679034] (evoart_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.682332] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann\n'}
+[5.684601] (evoart_control) StdoutLine: {'line': b'-- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node\n'}
+[5.687706] (evoart_control) StdoutLine: {'line': b'-- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node" to ""\n'}
+[5.687800] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config\n'}
+[5.688350] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config/control_params.yaml\n'}
+[5.688454] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch\n'}
+[5.688878] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py\n'}
+[5.688956] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/robotaksi_all.launch.py\n'}
+[5.689027] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann\n'}
+[5.689271] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node\n'}
+[5.689398] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander.py\n'}
+[5.689484] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch\n'}
+[5.689521] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py\n'}
+[5.689549] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/robotaksi_all.launch.py\n'}
+[5.691043] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/package_run_dependencies/evoart_control\n'}
+[5.691376] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/parent_prefix_path/evoart_control\n'}
+[5.691471] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.sh\n'}
+[5.691566] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.dsv\n'}
+[5.691642] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.sh\n'}
+[5.691689] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.dsv\n'}
+[5.691727] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.bash\n'}
+[5.691764] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.sh\n'}
+[5.691810] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.zsh\n'}
+[5.691847] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.dsv\n'}
+[5.691883] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.dsv\n'}
+[5.692277] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/packages/evoart_control\n'}
+[5.692547] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig.cmake\n'}
+[5.692591] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig-version.cmake\n'}
+[5.692679] (evoart_control) StdoutLine: {'line': b'-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.xml\n'}
+[5.693869] (evoart_control) CommandEnded: {'returncode': 0}
+[5.702176] (evoart_control) JobEnded: {'identifier': 'evoart_control', 'rc': 0}
+[5.702582] (-) EventReactorShutdown: {}

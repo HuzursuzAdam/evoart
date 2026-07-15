@@ -1,0 +1,6 @@
+# İstek (Request)
+int8 parking_slot_number
+---
+# Cevap (Response)
+bool success
+string message

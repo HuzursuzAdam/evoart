@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_vel_to_ackermann[0m
+[35m[1mConsolidate compiler generated dependencies of target manual_commander[0m
+[35m[1mConsolidate compiler generated dependencies of target stm32_odom_node[0m
+[ 33%] Built target cmd_vel_to_ackermann
+[ 50%] [32mBuilding CXX object CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o[0m
+[ 83%] Built target stm32_odom_node
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:[m[K In member function ‘[01m[Kvoid ManualCommander::buildPacket(uint8_t*, double, double, bool)[m[K’:
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:146:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_pwm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  146 |         uint16_t [01;35m[Kvel_pwm[m[K = static_cast<uint16_t>(1500.0 + (v_mag / MAX_VEL) * 500.0);
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:139:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  139 |     void buildPacket(uint8_t* packet, double v, double s, [01;35m[Kbool brake[m[K)
+      |                                                           [01;35m[K~~~~~^~~~~[m[K
+[100%] [32m[1mLinking CXX executable manual_commander[0m
+[100%] Built target manual_commander
+-- Install configuration: ""
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+-- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann" to ""
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+-- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node" to ""
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config/control_params.yaml
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander
+-- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander" to ""
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/package_run_dependencies/evoart_control
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/parent_prefix_path/evoart_control
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.bash
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.sh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.zsh
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.dsv
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/packages/evoart_control
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig.cmake
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig-version.cmake
+-- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.xml

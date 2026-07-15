@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "evoart_interfaces__rs",
+		"source" : "/home/mustafa/evoart_ws/build/evoart_interfaces/evoart_interfaces__rs"
+	}
+}

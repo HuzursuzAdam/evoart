@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target manual_commander[0m
+[ 33%] Built target stm32_odom_node
+[ 66%] Built target cmd_vel_to_ackermann
+[ 83%] [32mBuilding CXX object CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o[0m

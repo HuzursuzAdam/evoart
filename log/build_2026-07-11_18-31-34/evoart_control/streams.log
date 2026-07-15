@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_control': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target manual_commander[0m
+[0.048s] [ 33%] Built target cmd_vel_to_ackermann
+[0.049s] [ 66%] Built target stm32_odom_node
+[0.052s] [ 83%] [32mBuilding CXX object CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o[0m
+[1.716s] [100%] [32m[1mLinking CXX executable manual_commander[0m
+[1.785s] [100%] Built target manual_commander
+[1.792s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_control' returned '0': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32
+[1.794s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_control': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_control
+[1.798s] -- Install configuration: ""
+[1.798s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+[1.798s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config/control_params.yaml
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+[1.799s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+[1.799s] -- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander
+[1.800s] -- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander" to ""
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/package_run_dependencies/evoart_control
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/parent_prefix_path/evoart_control
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.sh
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.dsv
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.sh
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.dsv
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.bash
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.sh
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.zsh
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.dsv
+[1.800s] -- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.dsv
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/packages/evoart_control
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig.cmake
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig-version.cmake
+[1.800s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.xml
+[1.802s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_control' returned '0': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_control

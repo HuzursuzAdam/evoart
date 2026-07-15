@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <!-- ReactiveSequence: Sürekli şartları kontrol et, biri bozulursa eylemi iptal et -->
+        <ReactiveSequence>
+            
+            <!-- 1. GÖZLER: Trafik ışığı kırmızı mı diye sürekli kontrol et -->
+            <CheckTrafficLightCondition/>
+            
+            <!-- 2. KASLAR: Eğer ışık yeşilse, hedefe (Örn: X=15, Y=5) gitmeye devam et -->
+            <NavigateToPoseAction goal_x="15.0" goal_y="5.0" goal_yaw="0.0"/>
+            
+        </ReactiveSequence>
+    </BehaviorTree>
+</root>

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from evoart_interfaces/msg/Obstacle.msg
+// generated code does not contain a copyright notice
+
+
+module evoart_interfaces {
+  module msg {
+    module Obstacle_Constants {
+      const int8 TYPE_CONE = 0;
+      const int8 TYPE_PEDESTRIAN = 1;
+      const int8 TYPE_VEHICLE = 2;
+    };
+    @verbatim (language="comment", text=
+      "Engel Tipleri")
+    struct Obstacle {
+      int8 obstacle_type;
+
+      @verbatim (language="comment", text=
+        "Metre cinsinden")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "Radyan veya derece cinsinden")
+      float angle;
+    };
+  };
+};

@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="evoart_robotaksi">
+
+    <material name="black"> <color rgba="0.1 0.1 0.1 1"/> </material>
+    <material name="blue"> <color rgba="0.0 0.0 0.8 1"/> </material>
+    <material name="dark_grey"> <color rgba="0.2 0.2 0.2 1"/> </material>
+
+    <link name="base_footprint"/>
+
+    <link name="base_link">
+        <visual>
+            <geometry> <box size="1.5 0.8 0.4"/> </geometry>
+            <origin xyz="0 0 0.2" rpy="0 0 0"/>
+            <material name="blue"/>
+        </visual>
+        <inertial>
+            <mass value="50.0"/>
+            <origin xyz="0 0 0.2"/>
+            <inertia ixx="3.33" ixy="0.0" ixz="0.0" iyy="10.41" iyz="0.0" izz="12.41"/>
+        </inertial>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    </joint>
+
+    <link name="arka_sol_teker_link">
+        <visual>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.054" ixy="0.0" ixz="0.0" iyy="0.054" iyz="0.0" izz="0.1"/>
+        </inertial>
+    </link>
+    <joint name="arka_sol_teker_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="arka_sol_teker_link"/>
+        <origin xyz="-0.75 0.5 0" rpy="-1.5708 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="arka_sag_teker_link">
+        <visual>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.054" ixy="0.0" ixz="0.0" iyy="0.054" iyz="0.0" izz="0.1"/>
+        </inertial>
+    </link>
+    <joint name="arka_sag_teker_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="arka_sag_teker_link"/>
+        <origin xyz="-0.75 -0.5 0" rpy="-1.5708 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="on_sol_direksiyon_link">
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+        </inertial>
+    </link>
+    <joint name="on_sol_direksiyon_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="on_sol_direksiyon_link"/>
+        <origin xyz="0.75 0.5 0" rpy="0 0 0"/> 
+        <axis xyz="0 0 1"/>
+        <limit lower="-0.5" upper="0.5" effort="50.0" velocity="5.0"/>
+    </joint>
+
+    <link name="on_sol_teker_link">
+        <visual>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.054" ixy="0.0" ixz="0.0" iyy="0.054" iyz="0.0" izz="0.1"/>
+        </inertial>
+    </link>
+    <joint name="on_sol_teker_joint" type="continuous">
+        <parent link="on_sol_direksiyon_link"/>
+        <child link="on_sol_teker_link"/>
+        <origin xyz="0 0 0" rpy="-1.5708 0 0"/> 
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="on_sag_direksiyon_link">
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+        </inertial>
+    </link>
+    <joint name="on_sag_direksiyon_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="on_sag_direksiyon_link"/>
+        <origin xyz="0.75 -0.5 0" rpy="0 0 0"/> 
+        <axis xyz="0 0 1"/>
+        <limit lower="-0.5" upper="0.5" effort="50.0" velocity="5.0"/>
+    </joint>
+
+    <link name="on_sag_teker_link">
+        <visual>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry> <cylinder radius="0.2" length="0.1"/> </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0.054" ixy="0.0" ixz="0.0" iyy="0.054" iyz="0.0" izz="0.1"/>
+        </inertial>
+    </link>
+    <joint name="on_sag_teker_joint" type="continuous">
+        <parent link="on_sag_direksiyon_link"/>
+        <child link="on_sag_teker_link"/>
+        <origin xyz="0 0 0" rpy="-1.5708 0 0"/> 
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="zed_camera_link">
+        <visual>
+            <geometry> <box size="0.05 0.15 0.05"/> </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="zed_camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="zed_camera_link"/>
+        <origin xyz="0.75 0.0 0.45" rpy="0 0 0"/>
+    </joint>
+
+    <link name="lidar_link">
+        <visual>
+            <geometry> <cylinder radius="0.05" length="0.08"/> </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0.3 0.0 0.5" rpy="0 0 0"/>
+    </joint>
+    
+    <gazebo>
+        <plugin filename="libignition-gazebo-ackermann-steering-system.so" name="ignition::gazebo::systems::AckermannSteering">
+            <left_joint>arka_sol_teker_joint</left_joint>
+            <right_joint>arka_sag_teker_joint</right_joint>
+            <left_steering_joint>on_sol_direksiyon_joint</left_steering_joint>
+            <right_steering_joint>on_sag_direksiyon_joint</right_steering_joint>
+            
+            <kingpin_width>1.0</kingpin_width>
+            <steering_limit>0.5</steering_limit>
+            <wheel_base>1.5</wheel_base>
+            
+            <wheel_separation>1.0</wheel_separation> 
+            <wheel_radius>0.2</wheel_radius>
+            
+            <topic>/cmd_vel</topic>
+            <odom_topic>/odom</odom_topic>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_footprint</child_frame_id>
+            <odom_publish_frequency>30</odom_publish_frequency>
+            <publish_odom_tf>true</publish_odom_tf>
+        </plugin>
+    </gazebo>
+    
+    <gazebo reference="lidar_link">
+        <sensor type="gpu_lidar" name="velodyne_vlp16">
+            <topic>/scan</topic>
+            <update_rate>10</update_rate>
+            <ignition_frame_id>lidar_link</ignition_frame_id>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-3.14159</min_angle>
+                        <max_angle>3.14159</max_angle>
+                    </horizontal>
+                    <vertical>
+                        <samples>16</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-0.261799</min_angle>
+                        <max_angle>0.261799</max_angle>
+                    </vertical>
+                </scan>
+                <range>
+                    <min>0.2</min>
+                    <max>100.0</max>
+                    <resolution>0.01</resolution>
+                </range>
+            </ray>
+            <always_on>1</always_on>
+            <visualize>true</visualize>
+        </sensor>
+    </gazebo>
+    
+    <gazebo reference="zed_camera_link">
+        <sensor type="camera" name="zed2i_camera">
+            <topic>/zed/zed_node/rgb/image_rect_color</topic>
+            <update_rate>30</update_rate>
+            <camera>
+                <horizontal_fov>1.91986</horizontal_fov>
+                <image>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.1</near>
+                    <far>100</far>
+                </clip>
+            </camera>
+            <always_on>1</always_on>
+            <visualize>true</visualize>
+        </sensor>
+    </gazebo>
+
+    <gazebo>
+        <plugin filename="libignition-gazebo-joint-state-publisher-system.so" name="ignition::gazebo::systems::JointStatePublisher">
+            <update_rate>30</update_rate>
+            <joint_name>arka_sol_teker_joint</joint_name>
+            <joint_name>arka_sag_teker_joint</joint_name>
+            <joint_name>on_sol_direksiyon_joint</joint_name>
+            <joint_name>on_sag_direksiyon_joint</joint_name>
+            <joint_name>on_sol_teker_joint</joint_name>
+            <joint_name>on_sag_teker_joint</joint_name>
+            <topic>/joint_states</topic>
+        </plugin>
+    </gazebo>
+
+    <gazebo reference="arka_sag_teker_link">
+      <mu>1.0</mu>
+      <mu2>1.0</mu2>
+      <fdir1>1 0 0</fdir1> 
+      <minDepth>0.005</minDepth>
+    </gazebo>
+    <gazebo reference="arka_sol_teker_link">
+      <mu>1.0</mu>
+      <mu2>1.0</mu2>
+      <fdir1>1 0 0</fdir1>
+      <minDepth>0.005</minDepth>
+    </gazebo>
+
+    <gazebo reference="on_sag_teker_link">
+      <mu>1.0</mu>
+      <mu2>1.0</mu2>
+    </gazebo>
+    <gazebo reference="on_sol_teker_link">
+      <mu>1.0</mu>
+      <mu2>1.0</mu2>
+    </gazebo>
+
+</robot>

@@ -1,0 +1,6 @@
+Invoking command in '/home/mustafa/evoart_ws/build/evoart_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mustafa/evoart_ws/src/evoart_interfaces -DCMAKE_INSTALL_PREFIX=/home/mustafa/evoart_ws/install/evoart_interfaces
+Invoked command in '/home/mustafa/evoart_ws/build/evoart_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mustafa/evoart_ws/src/evoart_interfaces -DCMAKE_INSTALL_PREFIX=/home/mustafa/evoart_ws/install/evoart_interfaces
+Invoking command in '/home/mustafa/evoart_ws/build/evoart_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_interfaces -- -j32 -l32
+Invoked command in '/home/mustafa/evoart_ws/build/evoart_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_interfaces -- -j32 -l32
+Invoking command in '/home/mustafa/evoart_ws/build/evoart_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_interfaces
+Invoked command in '/home/mustafa/evoart_ws/build/evoart_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_interfaces

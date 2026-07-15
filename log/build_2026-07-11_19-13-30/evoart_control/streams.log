@@ -1,0 +1,13 @@
+[0.007s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_control': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target manual_commander[0m
+[0.052s] [ 33%] Built target stm32_odom_node
+[0.052s] [ 66%] Built target cmd_vel_to_ackermann
+[0.055s] [ 83%] [32mBuilding CXX object CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o[0m
+[1.369s] [01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:[m[K In constructor ‘[01m[KTeleopPacketTest::TeleopPacketTest()[m[K’:
+[1.369s] [01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtryOpenSerialPort[m[K’ was not declared in this scope
+[1.369s]    16 |         [01;31m[KtryOpenSerialPort[m[K();
+[1.369s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.629s] gmake[2]: *** [CMakeFiles/manual_commander.dir/build.make:76: CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o] Error 1
+[1.629s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/manual_commander.dir/all] Error 2
+[1.629s] gmake: *** [Makefile:146: all] Error 2
+[1.631s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_control' returned '2': CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/home/mustafa/evoart_ws/install/evoart_control:/opt/ros/humble /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32

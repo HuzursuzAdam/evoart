@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config
+-- Installing: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config/ekf.yaml
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/config/nav2_params.yaml
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/launch
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/launch/navigation.launch.py
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps
+-- Installing: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps/robotaksi_pist.yaml
+-- Installing: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/maps/robotaksi_pis.pgm
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/package_run_dependencies/evoart_navigation
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/parent_prefix_path/evoart_navigation
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/path.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/environment/path.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.bash
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.sh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.zsh
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/local_setup.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/package.dsv
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/ament_index/resource_index/packages/evoart_navigation
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/cmake/evoart_navigationConfig.cmake
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/cmake/evoart_navigationConfig-version.cmake
+-- Up-to-date: /home/mustafa/evoart_ws/install/evoart_navigation/share/evoart_navigation/package.xml

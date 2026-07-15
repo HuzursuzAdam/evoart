@@ -1,0 +1,454 @@
+.
+├── evoart_behavior
+│   ├── bt_xml
+│   │   └── robotaksi_tree.xml
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── evoart_behavior
+│   │       ├── check_traffic_light_condition.hpp
+│   │       └── navigate_to_pose_action.hpp
+│   ├── launch
+│   ├── package.xml
+│   └── src
+│       ├── bt_engine.cpp
+│       ├── check_traffic_light_condition.cpp
+│       └── navigate_to_pose_action.cpp
+├── evoart_bringup
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── laserscan_filter.yaml
+│   ├── include
+│   │   └── evoart_bringup
+│   ├── launch
+│   │   ├── microros.launch.py
+│   │   ├── robotaksi.launch.py
+│   │   └── sensors.launch.py
+│   ├── package.xml
+│   └── src
+├── evoart_control
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── control_params.yaml
+│   ├── include
+│   │   └── evoart_control
+│   │       └── cmd_vel_to_ackermann.hpp
+│   ├── launch
+│   │   └── control.launch.py
+│   ├── package.xml
+│   └── src
+│       └── cmd_vel_to_ackermann.cpp
+├── evoart_description
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── evoart_description
+│   ├── launch
+│   │   ├── display.launch.py
+│   │   └── gazebo.launch.py
+│   ├── meshes
+│   ├── models
+│   │   ├── AzamiHizSiniri20
+│   │   │   ├── meshes
+│   │   │   │   └── AzamiHizSiniri20.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── AzamiHizSiniri30
+│   │   │   ├── meshes
+│   │   │   │   └── AzamiHizSiniri30.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── DonelKavsakTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── DonelKavsakTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── DurakTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── DurakTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── DurTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── DurTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── GirisiOlmayanYolTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── GirisiOlmayanYolTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── KirmiziTrafikLambasi
+│   │   │   ├── meshes
+│   │   │   │   └── KirmiziTrafikLambasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── ParkEtmekYasaktirTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── ParkEtmekYasaktirTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── ParkYeriTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── ParkYeriTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── RoboTaksiPist2024
+│   │   │   ├── meshes
+│   │   │   │   ├── RoboTaksiPist2024_0.dae
+│   │   │   │   ├── RoboTaksiPist2024_1.dae
+│   │   │   │   └── RoboTaksiPist2024.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── SagaDonulmezTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── SagaDonulmezTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── SagaMecburiYonTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── SagaMecburiYonTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── SamBotBandirma
+│   │   │   ├── meshes
+│   │   │   │   └── SamBotBandirma.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── SolaDonulmezTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── SolaDonulmezTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── SolaMecburiYonTabelasi
+│   │   │   ├── meshes
+│   │   │   │   └── SolaMecburiYonTabelasi.dae
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── Template
+│   │   │   ├── meshes
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   └── YesilTrafikLambasi
+│   │       ├── meshes
+│   │       │   └── YesilTrafikLambasi.dae
+│   │       ├── model.config
+│   │       └── model.sdf
+│   ├── package.xml
+│   ├── rviz
+│   │   └── robotaksi.rviz
+│   ├── src
+│   ├── urdf
+│   │   └── robotaksi.urdf.xacro
+│   └── worlds
+│       └── teknofest_city.sdf
+├── evoart_interfaces
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── evoart_interfaces
+│   ├── msg
+│   │   ├── Obstacle.msg
+│   │   ├── TrafficLight.msg
+│   │   └── VehicleControl.msg
+│   ├── package.xml
+│   ├── src
+│   └── srv
+│       └── StartPark.srv
+├── evoart_navigation
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   ├── ekf.yaml
+│   │   └── nav2_params.yaml
+│   ├── include
+│   │   └── evoart_navigation
+│   ├── launch
+│   │   └── navigation.launch.py
+│   ├── maps
+│   ├── package.xml
+│   └── src
+├── evoart_perception
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── camera_calibration.yaml
+│   ├── include
+│   │   └── evoart_perception
+│   ├── models
+│   │   ├── robotaksi_yolo.onnx
+│   │   └── yolov8n.pt
+│   ├── package.xml
+│   ├── scripts
+│   │   ├── lane_detector.py
+│   │   └── object_detector.py
+│   └── src
+├── tree.txt
+├── velodyne
+│   ├── CONTRIBUTING.md
+│   ├── COPYING
+│   ├── LICENSE
+│   ├── README.md
+│   ├── velodyne
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── launch
+│   │   │   ├── velodyne-all-nodes-VLP16-composed-launch.py
+│   │   │   ├── velodyne-all-nodes-VLP16-launch.py
+│   │   │   ├── velodyne-all-nodes-VLP32C-composed-launch.py
+│   │   │   ├── velodyne-all-nodes-VLP32C-launch.py
+│   │   │   ├── velodyne-all-nodes-VLS128-composed-launch.py
+│   │   │   └── velodyne-all-nodes-VLS128-launch.py
+│   │   └── package.xml
+│   ├── velodyne_driver
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── config
+│   │   │   ├── VLP16-velodyne_driver_node-params.yaml
+│   │   │   ├── VLP32C-velodyne_driver_node-params.yaml
+│   │   │   └── VLS128-velodyne_driver_node-params.yaml
+│   │   ├── include
+│   │   │   └── velodyne_driver
+│   │   │       ├── driver.hpp
+│   │   │       ├── input.hpp
+│   │   │       └── time_conversion.hpp
+│   │   ├── launch
+│   │   │   ├── velodyne_driver_node-VLP16-composed-launch.py
+│   │   │   ├── velodyne_driver_node-VLP16-launch.py
+│   │   │   ├── velodyne_driver_node-VLP32C-composed-launch.py
+│   │   │   ├── velodyne_driver_node-VLP32C-launch.py
+│   │   │   ├── velodyne_driver_node-VLS128-composed-launch.py
+│   │   │   └── velodyne_driver_node-VLS128-launch.py
+│   │   ├── mainpage.dox
+│   │   ├── package.xml
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── driver
+│   │   │   │   ├── driver.cpp
+│   │   │   │   └── velodyne_node.cpp
+│   │   │   ├── lib
+│   │   │   │   └── input.cpp
+│   │   │   └── vdump
+│   │   └── tests
+│   │       ├── diagnostic_agg.yaml
+│   │       ├── pcap_32e_node_hertz.test
+│   │       ├── pcap_32e_nodelet_hertz.test
+│   │       ├── pcap_node_hertz.test
+│   │       ├── pcap_nodelet_hertz.test
+│   │       ├── pcap_vlp16_node_hertz.test
+│   │       ├── pcap_vlp16_nodelet_hertz.test
+│   │       └── timeconversiontest.cpp
+│   ├── velodyne_laserscan
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── config
+│   │   │   └── default-velodyne_laserscan_node-params.yaml
+│   │   ├── include
+│   │   │   └── velodyne_laserscan
+│   │   │       └── velodyne_laserscan.hpp
+│   │   ├── launch
+│   │   │   ├── velodyne_laserscan_node-composed-launch.py
+│   │   │   └── velodyne_laserscan_node-launch.py
+│   │   ├── package.xml
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── node.cpp
+│   │   │   └── velodyne_laserscan.cpp
+│   │   └── tests
+│   │       ├── CMakeLists.txt
+│   │       ├── lazy_subscriber.cpp
+│   │       ├── lazy_subscriber_nodelet.test
+│   │       ├── lazy_subscriber_node.test
+│   │       ├── system.cpp
+│   │       ├── system_nodelet.test
+│   │       └── system_node.test
+│   ├── velodyne_msgs
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── mainpage.dox
+│   │   ├── msg
+│   │   │   ├── VelodynePacket.msg
+│   │   │   └── VelodyneScan.msg
+│   │   └── package.xml
+│   └── velodyne_pointcloud
+│       ├── CHANGELOG.rst
+│       ├── CMakeLists.txt
+│       ├── config
+│       │   ├── VLP16-velodyne_transform_node-params.yaml
+│       │   ├── VLP32C-velodyne_transform_node-params.yaml
+│       │   └── VLS128-velodyne_transform_node-params.yaml
+│       ├── include
+│       │   └── velodyne_pointcloud
+│       │       ├── calibration.hpp
+│       │       ├── datacontainerbase.hpp
+│       │       ├── organized_cloudXYZIRT.hpp
+│       │       ├── pointcloudXYZIRT.hpp
+│       │       ├── rawdata.hpp
+│       │       └── transform.hpp
+│       ├── launch
+│       │   ├── velodyne_transform_node-VLP16-composed-launch.py
+│       │   ├── velodyne_transform_node-VLP16-launch.py
+│       │   ├── velodyne_transform_node-VLP32C-composed-launch.py
+│       │   ├── velodyne_transform_node-VLP32C-launch.py
+│       │   ├── velodyne_transform_node-VLS128-composed-launch.py
+│       │   └── velodyne_transform_node-VLS128-launch.py
+│       ├── mainpage.dox
+│       ├── package.xml
+│       ├── params
+│       │   ├── 32db.yaml
+│       │   ├── 64e_s2.1-sztaki.yaml
+│       │   ├── 64e_s3-xiesc.yaml
+│       │   ├── 64e_utexas.yaml
+│       │   ├── issue_84_float_intensities.yaml
+│       │   ├── rviz_points.vcg
+│       │   ├── VeloView-VLP-32C.yaml
+│       │   ├── VLP16db.yaml
+│       │   ├── VLP16_hires_db.yaml
+│       │   └── VLS128.yaml
+│       ├── README.md
+│       ├── scripts
+│       │   ├── add_two_pt.py
+│       │   └── gen_calibration.py
+│       ├── src
+│       │   ├── conversions
+│       │   │   ├── transform.cpp
+│       │   │   └── transform_node.cpp
+│       │   └── lib
+│       │       ├── calibration.cpp
+│       │       ├── CMakeLists.txt
+│       │       ├── organized_cloudXYZIRT.cpp
+│       │       ├── pointcloudXYZIRT.cpp
+│       │       └── rawdata.cpp
+│       └── tests
+│           ├── 32db.xml
+│           ├── 64e_s2.1-sztaki.xml
+│           ├── angles-calibrated.yaml
+│           ├── angles.yaml
+│           ├── CMakeLists.txt
+│           ├── empty.xml
+│           ├── static_vehicle_tf.launch
+│           ├── test_calibration.cpp
+│           ├── test_db_without_intensities.xml
+│           ├── test_row_step.cpp
+│           ├── transform_node_32e_hz.test
+│           ├── transform_node_64e_s2.1_hz.test
+│           ├── transform_node_hz.test
+│           ├── transform_nodelet_32e_hz.test
+│           ├── transform_nodelet_64e_s2.1_hz.test
+│           ├── transform_nodelet_hz.test
+│           ├── transform_nodelet_vlp16_hz.test
+│           ├── transform_node_vlp16_hz.test
+│           └── two_nodelet_managers.test
+└── zed-ros2-wrapper
+    ├── CHANGELOG.rst
+    ├── CONTRIBUTING.md
+    ├── docker
+    │   ├── desktop_build_dockerfile_from_sdk_ubuntu_and_cuda_version.sh
+    │   ├── Dockerfile.desktop-humble
+    │   ├── Dockerfile.l4t-humble
+    │   ├── jetson_build_dockerfile_from_sdk_and_l4T_version.sh
+    │   ├── README.md
+    │   ├── ros_entrypoint_jetson.sh
+    │   └── ros_entrypoint.sh
+    ├── images
+    │   ├── depth.jpg
+    │   ├── nitros-graph.gif
+    │   ├── Picto+STEREOLABS_Black.jpg
+    │   ├── PointCloud_Depth_ROS.jpg
+    │   ├── point_cloud.jpg
+    │   ├── rgb.jpg
+    │   ├── sim_rviz.jpg
+    │   └── zed_shelves.jpg
+    ├── LICENSE
+    ├── README.md
+    ├── zed_components
+    │   ├── CMakeLists.txt
+    │   ├── package.xml
+    │   └── src
+    │       ├── include
+    │       │   ├── sl_version.hpp
+    │       │   └── visibility_control.hpp
+    │       ├── tools
+    │       │   ├── include
+    │       │   │   ├── gnss_replay.hpp
+    │       │   │   ├── sl_logging.hpp
+    │       │   │   ├── sl_tools.hpp
+    │       │   │   ├── sl_type_adapter.hpp
+    │       │   │   ├── sl_types.hpp
+    │       │   │   └── sl_win_avg.hpp
+    │       │   └── src
+    │       │       ├── gnss_replay.cpp
+    │       │       ├── sl_tools.cpp
+    │       │       ├── sl_types.cpp
+    │       │       └── sl_win_avg.cpp
+    │       ├── zed_camera
+    │       │   ├── include
+    │       │   │   ├── cost_traversability.hpp
+    │       │   │   └── zed_camera_component.hpp
+    │       │   └── src
+    │       │       ├── cost_traversability.cpp
+    │       │       ├── zed_camera_component_bodytrk.cpp
+    │       │       ├── zed_camera_component_main.cpp
+    │       │       ├── zed_camera_component_objdet.cpp
+    │       │       └── zed_camera_component_video_depth.cpp
+    │       └── zed_camera_one
+    │           ├── include
+    │           │   └── zed_camera_one_component.hpp
+    │           └── src
+    │               ├── zed_camera_one_component_main.cpp
+    │               ├── zed_camera_one_component_sensors.cpp
+    │               └── zed_camera_one_component_video.cpp
+    ├── zed_debug
+    │   ├── CMakeLists.txt
+    │   ├── config
+    │   │   ├── common_mono.yaml
+    │   │   ├── common_stereo.yaml
+    │   │   ├── custom_object_detection.yaml
+    │   │   ├── object_detection.yaml
+    │   │   ├── virtual.yaml
+    │   │   ├── zed2i.yaml
+    │   │   ├── zed2.yaml
+    │   │   ├── zedm.yaml
+    │   │   ├── zedxhdrmax.yaml
+    │   │   ├── zedxhdrmini.yaml
+    │   │   ├── zedxhdr.yaml
+    │   │   ├── zedxm.yaml
+    │   │   ├── zedxnano.yaml
+    │   │   ├── zedxone4k.yaml
+    │   │   ├── zedxonegs.yaml
+    │   │   ├── zedxonehdr.yaml
+    │   │   ├── zedx.yaml
+    │   │   └── zed.yaml
+    │   ├── launch
+    │   │   └── zed_camera_debug.launch.py
+    │   ├── package.xml
+    │   ├── README.md
+    │   └── src
+    │       └── zed_debug_proc.cpp
+    ├── zed_ros2
+    │   ├── CMakeLists.txt
+    │   └── package.xml
+    └── zed_wrapper
+        ├── CMakeLists.txt
+        ├── config
+        │   ├── common_mono.yaml
+        │   ├── common_stereo.yaml
+        │   ├── custom_object_detection.yaml
+        │   ├── object_detection.yaml
+        │   ├── virtual.yaml
+        │   ├── zed2i.yaml
+        │   ├── zed2.yaml
+        │   ├── zedm.yaml
+        │   ├── zedxhdrmax.yaml
+        │   ├── zedxhdrmini.yaml
+        │   ├── zedxhdr.yaml
+        │   ├── zedxm.yaml
+        │   ├── zedxnano.yaml
+        │   ├── zedxone4k.yaml
+        │   ├── zedxonegs.yaml
+        │   ├── zedxonehdr.yaml
+        │   ├── zedx.yaml
+        │   └── zed.yaml
+        ├── launch
+        │   └── zed_camera.launch.py
+        ├── package.xml
+        └── urdf
+            ├── zed_descr.urdf.xacro
+            └── zed_macro.urdf.xacro
+
+139 directories, 313 files

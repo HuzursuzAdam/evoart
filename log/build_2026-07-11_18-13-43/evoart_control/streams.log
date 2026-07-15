@@ -1,0 +1,36 @@
+[0.006s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_control': AMENT_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target manual_commander[0m
+[0.047s] [ 33%] Built target cmd_vel_to_ackermann
+[0.048s] [ 66%] Built target stm32_odom_node
+[0.052s] [ 83%] [32mBuilding CXX object CMakeFiles/manual_commander.dir/src/manual_commander.cpp.o[0m
+[2.455s] [100%] [32m[1mLinking CXX executable manual_commander[0m
+[2.572s] [100%] Built target manual_commander
+[2.580s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_control' returned '0': AMENT_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mustafa/evoart_ws/build/evoart_control -- -j32 -l32
+[2.581s] Invoking command in '/home/mustafa/evoart_ws/build/evoart_control': AMENT_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_control
+[2.586s] -- Install configuration: ""
+[2.586s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/config/control_params.yaml
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/launch/control.launch.py
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/cmd_vel_to_ackermann
+[2.587s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/stm32_odom_node
+[2.587s] -- Installing: /home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander
+[2.589s] -- Set runtime path of "/home/mustafa/evoart_ws/install/evoart_control/lib/evoart_control/manual_commander" to ""
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/package_run_dependencies/evoart_control
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/parent_prefix_path/evoart_control
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.sh
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/ament_prefix_path.dsv
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.sh
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/environment/path.dsv
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.bash
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.sh
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.zsh
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/local_setup.dsv
+[2.589s] -- Installing: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.dsv
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/ament_index/resource_index/packages/evoart_control
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig.cmake
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/cmake/evoart_controlConfig-version.cmake
+[2.589s] -- Up-to-date: /home/mustafa/evoart_ws/install/evoart_control/share/evoart_control/package.xml
+[2.590s] Invoked command in '/home/mustafa/evoart_ws/build/evoart_control' returned '0': AMENT_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mustafa/evoart_ws/install/evoart_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mustafa/evoart_ws/install/evoart_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mustafa/evoart_ws/build/evoart_control

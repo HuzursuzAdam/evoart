@@ -1,0 +1,7 @@
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:[m[K In member function ‘[01m[Kvoid ManualCommander::buildPacket(uint8_t*, double, double, bool)[m[K’:
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:146:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_pwm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  146 |         uint16_t [01;35m[Kvel_pwm[m[K = static_cast<uint16_t>(1500.0 + (v_mag / MAX_VEL) * 500.0);
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/mustafa/evoart_ws/src/evoart_control/src/manual_commander.cpp:139:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbrake[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  139 |     void buildPacket(uint8_t* packet, double v, double s, [01;35m[Kbool brake[m[K)
+      |                                                           [01;35m[K~~~~~^~~~~[m[K
